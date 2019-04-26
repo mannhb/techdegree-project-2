@@ -1,0 +1,380 @@
+/* Base Styles */
+
+@import 'normalize.css';
+
+* {
+  box-sizing: border-box;
+}
+
+#top {
+  text-align: center;
+}
+
+.header-wrap {
+  text-align: center; 
+  margin-left: 10px;
+  margin-right: 10px; 
+}
+
+body {
+  font-family: 'Work Sans'; font-size: 16px;
+  background-color: linen;
+}
+
+.portfolio-wrapper {
+  background-color: #FFFFFF; 
+}
+
+.nav,
+a  {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  display: block; 
+  padding: 10px 0; 
+}
+
+li {
+  margin-bottom: 5px; 
+  font-weight: bold; 
+  text-transform: uppercase;
+  background-color: white; 
+}
+
+.profile-image {
+  display: block;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.header-paragraph {
+  text-align: center;
+  line-height: 1.6;
+  margin: 10px 10px 0 10px;
+  font-weight: 100;
+  color: grey; 
+}
+
+.portfolio-wrapper {
+  text-align: center;
+  padding-right: 1em;
+  padding-left: 1em; 
+}
+
+.port-title {
+  font-weight: 900;
+  text-transform: uppercase; 
+  padding-top: 45px;
+}
+
+.portfolio-image {
+  width: 90%;
+  margin: 0 auto; 
+}
+
+.skills {
+  line-height: 1.6;
+  color: grey; 
+  background-color: whitesmoke;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: -15px;
+  margin-top: 40px;
+}
+
+.list-skills {
+  display: inline-block; 
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-skills, 
+li {
+  text-transform: capitalize;
+  background-color: whitesmoke;
+}
+
+.marketing,
+.search,
+.travel,
+.map,
+.photo,
+.calculator {
+  padding: 20px; 
+}
+
+.skills-paragraph,
+.skills-title {
+  line-height: 1.6;
+  color: grey;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contact-footer {
+  text-align: center;
+  padding-top: 25px; 
+  margin: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.contact-title {
+  font-weight: 900;
+  padding-bottom: 20px;
+}
+
+.contact-text {
+  text-align: center; 
+  line-height: 1.6;
+  color: grey;
+  padding-bottom: 20px;
+}
+
+.contact-phone {
+  color: grey; 
+}
+
+.contact-email {
+  color: grey; 
+  padding-bottom: 60px; 
+}
+
+.footer-name {
+  display: inline-block;
+  float: left;
+  margin-left: 10px; 
+}
+
+.footer-nav {
+  display: inline-block; 
+  float: right;
+  position: relative; 
+  padding-top: 20px; 
+  margin-right: 10px; 
+}
+
+a:hover {
+  color: coral;
+}
+
+.alt-footer {
+  visibility: hidden;
+  position: absolute;
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+
+.alt-footer, 
+ul {
+  display: inline-block; 
+  padding: 0;
+  margin: 0;
+}
+
+.alt-footer li {
+  display: inline-block;
+}
+
+
+/* Media Queries */
+
+
+@media (min-width: 768px) {
+  
+  #top {
+    margin-bottom: 0;
+  }
+  
+  .header-wrap {
+    display: inline-block;     
+  } 
+  
+  .nav a {
+    display: inline-block;
+    padding: 10px; 
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 25px;
+    background-color: whitesmoke;
+  }
+  
+  .profile-image {
+    width: 30%;
+    float: right;
+    margin: 10px; 
+  }
+   
+  
+  .header-paragraph {
+    text-align: left;
+  }
+  
+  
+  .portfolio-image {
+    width: 90%;
+  }
+  
+  
+  .portfolio-wrapper {
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .marketing,
+  .search,
+  .travel {
+    display: inline-block;
+    width: 50%;
+    margin-right: -5px;
+    vertical-align: top;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  
+  .map,
+  .photo,
+  .calculator {
+    display: inline-block;
+    width: 50%;
+    margin-right: -5px;
+    vertical-align: top;
+    padding-right: 1em;
+    padding-left: 1em; 
+  }
+  
+  .contact-text {
+    margin-left: 90px; 
+    margin-right: 90px; 
+  }
+  
+  .footer-nav {
+    visibility: hidden;
+  }
+  
+  .alt-footer {
+    visibility: visible;
+    float: right;
+    padding: 10px;
+    margin-left: 70px;
+  }
+ 
+  a {
+    background-color: linen;
+  }
+  
+  .skills {
+    padding: 25px;
+  }
+  
+  .list-skills li {
+    text-decoration: underline;
+  }
+  
+  @media (min-width: 1024px) {
+    
+    .portfolio-wrapper {
+      width: 95%;
+      margin: 0 auto;
+      padding: 0;
+  }
+    
+    .marketing,
+    .search {
+      display: inline-block;
+      width: 33%;
+      margin-right: -5px;
+      vertical-align: top;
+      padding-right: 1em;
+      padding-left: 1em;
+    }
+    
+    .travel,
+    .map {
+      display: inline-block;
+      width: 33%;
+      margin-right: -5px;
+      vertical-align: top;
+      padding-right: 1em;
+      padding-left: 1em;
+    }
+    
+    .photo,
+    .calculator {
+      display: inline-block;
+      width: 33%;
+      margin-right: -5px;
+      vertical-align: top;
+      padding-right: 1em;
+      padding-left: 1em;
+    }
+    
+    .skills {
+      margin: -35px;
+      margin-top: 50px;
+    }
+    
+    .alt-footer {
+      margin-left: 200px;
+    }
+    
+    #top {
+      display: inline-block;
+      float: left;
+      margin-left: 35px;
+      margin-bottom: 10px;
+    }
+    
+    .nav, 
+    a {
+      display: inline-block;
+      text-align: right;
+      padding-top: 20px;
+      padding-left: 10px; 
+    }
+    
+    .nav {
+      margin-left: 250px;
+    }
+    
+    .header-paragraph {
+      text-align: left;
+      padding-top: 20px;
+      margin-left: 35px;
+    }
+    
+    .profile-image {  
+      width: 30%;
+      float: right; 
+      padding-top: 25px;
+      margin-left: 70px;
+      margin-right: 55px;
+    }
+    
+    .contact-footer {
+      padding-top: 50px;
+    }   
+    
+  }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
