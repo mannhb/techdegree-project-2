@@ -1,4 +1,4 @@
-#Techdegree Project 2
+<h1>Techdegree Project 2</h1>
 
 In this project, you'll build a responsive, mobile-first layout using HTML and CSS. The layout should demonstrate an understanding of responsive design by adjusting to accommodate small, medium, and large screen sizes.
 
@@ -50,7 +50,7 @@ If CSS validator flags use of calc, vendor prefixes or pseudo-elements/pseudo-cl
 If HTML validator flags use of pipe (‘|’) in Google font links/URLs this error can also be ignored.
 
 
-#Extra Credit
+<h1>Extra Credit</h1> 
 
 To get an "exceeds" rating, you can expand on the project in the following ways:
 
