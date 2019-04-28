@@ -50,7 +50,7 @@ If CSS validator flags use of calc, vendor prefixes or pseudo-elements/pseudo-cl
 If HTML validator flags use of pipe (‘|’) in Google font links/URLs this error can also be ignored.
 
 
-<h1>Extra Credit</h1> 
+<h2>Extra Credit</h2> 
 
 To get an "exceeds" rating, you can expand on the project in the following ways:
 
